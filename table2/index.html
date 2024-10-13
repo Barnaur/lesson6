@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <caption>Table#2</caption>
+        <tr class="one">
+            <td colspan="2">1 2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td id="two">4</td>
+            <td colspan="2" rowspan="2">
+                <table class="three">
+                    <caption>ВЛОЖЕННАЯ ТАБЛИЦА</caption>
+                    <tr>
+                        <td>1</td>
+                        <td id="five" rowspan="3">2 5 8</td>
+                        <td id="six" rowspan="2">3 6</td>
+                    </tr>
+                    <tr>
+                        <td id="four" rowspan="2">4 7</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+        </tr>
+    </table>
+</body>
+</html>

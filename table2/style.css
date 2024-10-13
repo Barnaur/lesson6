@@ -1,0 +1,27 @@
+table {
+    text-align: center;
+    width: 90%;
+}
+table, td {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+.one td:last-child {
+    width: 60%;
+}
+#two {
+    width: 28%;
+}
+.three {
+    width: 80%;
+    margin: 50px 60px;
+}
+#four {
+    height: 200px;
+}
+#five {
+    width: 33%;
+}
+#six {
+    height: 200px;
+}
